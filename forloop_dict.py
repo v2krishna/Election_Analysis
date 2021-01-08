@@ -21,9 +21,14 @@
 #     print(f"{county} has {counties_dict.get(county)} registered voters")
 
 
-voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
-                {"county":"Denver", "registered_voters": 463353},
-                {"county":"Jefferson", "registered_voters": 432438}]
+# voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
+#                 {"county":"Denver", "registered_voters": 463353},
+#                 {"county":"Jefferson", "registered_voters": 432438}]
 
-for county_dict in voting_data:
-    print(county_dict['county'] , county_dict['registered_voters'])
+# for county_dict in voting_data:
+#     print(county_dict['county'] , county_dict['registered_voters'])
+
+counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
+
+for county, votes in counties_dict.items():
+    print(f"{county} county has {votes:,} registered votes")
