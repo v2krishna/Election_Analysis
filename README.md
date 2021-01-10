@@ -29,7 +29,7 @@ Analysis of the recent election conducted in Colorado:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes 
   
-- Formatted Terminal Election Results Output
+- Formatted Terminal Election Results Output <br/>
 ![colorado_election_results](/Resources/election_results_terminal.png) <br/>
 - Text output of Election Results <br/>
 ![colorado_election_results_to_textfile](/Resources/election_results_textoutput.png) <br/>
