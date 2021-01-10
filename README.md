@@ -21,7 +21,21 @@ Analysis of the recent election conducted in Colorado:
     - Charles Casper Stockham
     - Diana DeGette
     - Raymon Anthony Doane
-- Candidate Results are:
+    
+#### County Election Summary:
+- List of counties are votes cast
+  - Jefferson
+  - Denver
+  - Arapahoe
+ 
+ - County Results , calculating the votes casted for all the candidates.
+    - Arapahoe received 6.% vote with 38,855 number of vote
+    - Denver received 82.8% vote with 306,055 number of votes
+    - Jefferson received 6.7% vote with 24,801 number of votes
+    
+ - Based on the above results, the largest turnout county is : Denver
+    
+#### Candidate Results are:
    - Charles Casper Stockham received <b>10.5%</b> of the vote with <b>38,855</b> number of votes
    - Diana DeGette recieved 73.8% of the vote with 272,892 number of votes 
    - Raymon Anthony Doane received 3.1% of the vote with 11,606 number of votes
