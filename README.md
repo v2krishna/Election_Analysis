@@ -11,7 +11,7 @@ A Colorado Board of Elections employee has given the following tasks to audit th
 
 ### Resources
 - Data Source: election_result.csv
---Technologies: Python 3.7.8 , Visual Studio Code 1.38.1
+-Technologies: Python 3.7.8 , Visual Studio Code 1.38.1
 
 ## Summary
 Analysis of the recent election conducted in Colorado:
