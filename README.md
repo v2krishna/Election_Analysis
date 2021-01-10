@@ -33,7 +33,5 @@ Analysis of the recent election conducted in Colorado:
 ![colorado_election_results](/Resources/election_results_terminal.png) <br/>
 - Text output of Election Results <br/>
 ![colorado_election_results_to_textfile](/Resources/election_results_textoutput.png) <br/>
- 
-    
     
     
