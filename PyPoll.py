@@ -33,6 +33,9 @@ print(f"The time right now is {dt.datetime.now()}")
 #2 indirect file path using the os.path.join()
 file_to_load = os.path.join("Resources","election_results.csv")
 
+#load the output data to  file 
+file_to_save = os.path.join("analysis","election_analysis.txt")
+
 #Open  the election results and read the file
 
 with open(file_to_load) as election_data:
@@ -63,9 +66,6 @@ with open(file_to_load) as election_data:
     #print the file object
     # print(election_data)
 
-#load the output data to  file 
-file_to_save = os.path.join("analysis","election_analysis.txt")
-
 #open the file to save 
 with open(file_to_save, "w") as election_outputfile:
     
@@ -87,10 +87,13 @@ with open(file_to_save, "w") as election_outputfile:
     print(election_results)
     election_outputfile.write(election_results)
 
+    #adding the county and the county vote percent with votes 
     for county_name in county_names:
         cnty_votes_count = county_votes[county_name]
         cnty_vote_percent =float(cnty_votes_count)/float(total_votes) * 100
-        county_results = (f"{county_name}: {cnty_vote_percent:.1f}% ({cnty_votes_count:,})")
+        
+        county_results = (f"{county_name}: {cnty_vote_percent:.1f}% ({cnty_votes_count:,})\n")
+        
         print(county_results)
         election_outputfile.write(county_results)
 
@@ -103,14 +106,18 @@ with open(file_to_save, "w") as election_outputfile:
     largest_turnout_county_summary = (
                                 f"------------------------\n"
                                 f"Largest County Turnout: {largest_turnout_county}\n"
-                                f"------------------------"
+                                f"------------------------\n"
                                 )
     print(largest_turnout_county_summary)
+
+    election_outputfile.write(largest_turnout_county_summary)
 
     for candidate_name in candidate_votes:
         votes = candidate_votes[candidate_name]
         vote_percent = float(votes)/float(total_votes) * 100
-        candidate_results =  (f"{candidate_name}: {vote_percent:.1f}% ({votes:,})\n")
+        candidate_results =  (
+                              f"{candidate_name}: {vote_percent:.1f}% ({votes:,})\n"
+                             )
 
         print(candidate_results) # print the candidate_results 
         election_outputfile.write(candidate_results) # writing to the text
@@ -130,5 +137,3 @@ with open(file_to_save, "w") as election_outputfile:
                                 )
     print(winning_candidate_summary)
     election_outputfile.write(winning_candidate_summary)
-    # print(election_outputfile)
-    #election_outputfile.write(output_data)
