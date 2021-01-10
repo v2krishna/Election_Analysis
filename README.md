@@ -15,8 +15,9 @@ A Colorado Board of Elections employee has given the following tasks to audit th
 - Tools: Python 3.7.8 , Visual Studio Code 1.52.1
 
 ## Summary
-Analysis of the recent election conducted in Colorado:<br/>
-![colorado_election_results](/Resources/election_results_terminal.png) <br/>
+Analysis of the recent election conducted in Colorado:
+   Terminal Output                                                        File Output <br/>
+![colorado_election_results](/Resources/election_results_terminal.png)  ![colorado_election_results_to_textfile](/Resources/election_results_textoutput.png) <br/>
 - There were 369,711 votes casted in the election.
 - The list of candidates who received votes were:
     - Charles Casper Stockham
