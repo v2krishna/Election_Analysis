@@ -4,10 +4,11 @@
 A Colorado Board of Elections employee has given the following tasks to audit the election of recent local congressional Election.
 
 1. Calculate the total number of votes cast.
-1. Get full list of candidates who received votes
+1. List of candidates who received votes
 1. Calculate the total number of votes each candidate received.
 1. Calculate the percent of votes each candidate won.
 1. Determine the winner of the election based on popular vote
+1. Write the Election Results to a output file
 
 ### Resources
 - Data Source: election_result.csv
@@ -28,5 +29,8 @@ Analysis of the recent election conducted in Colorado:<br/>
    
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes 
+  
+ 
+    
     
     
