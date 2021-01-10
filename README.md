@@ -22,7 +22,7 @@ Analysis of the recent election conducted in Colorado:
     - Diana DeGette
     - Raymon Anthony Doane
     
-#### County Election Summary:
+#### County Election Summary
 - List of counties are votes cast
   - Jefferson
   - Denver
