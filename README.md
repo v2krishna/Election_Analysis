@@ -15,12 +15,12 @@ A Colorado Board of Elections employee has given the following tasks to audit th
 
 ## Summary
 Analysis of the recent election conducted in Colorado:
--- There were 369,711 votes casted in the election.
--- The candidates received votes were:
-    -- Charles Casper Stockham
-    -- Diana DeGette
-    -- Raymon Anthony Doane
--- Candidate Results are :
+- There were 369,711 votes casted in the election.
+- The candidates received votes were:
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- Candidate Results are :
    - Charles Casper Stockham received 10.5% of the vote and 38,855 number of votes
    - Diana DeGette recieved 73.8% of the vote and 272,892 number of votes 
    - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes
