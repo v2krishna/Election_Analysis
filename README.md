@@ -36,9 +36,10 @@ Analysis of the recent election conducted in Colorado:
 
 ## Election-Audit Summary
 If The existing python script can be modified with following changes:
-    1. Allow the election auditor to enter the state
-    1. folderpath where each state election results data are stored
-    1. Output file name, dynamically appends the state name at the end will allow store the election results for all states or interested in the same file path.
+
+    - Allow the election auditor to enter the state
+    - Folderpath where each state election results data are stored
+    - Output file name, dynamically appends the state name at the end will allow store the election results for all states or interested in the same file path.
     
 By doing these couple of changes, the python script can be used to get the election results of any state with just entering these two arguments. 
 With some more modifications, we can make to have only one output file with all the election results appended to the same file as we run for multiple states.
