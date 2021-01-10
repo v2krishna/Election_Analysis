@@ -22,7 +22,7 @@ Analysis of the recent election conducted in Colorado:<br/>
     - Diana DeGette
     - Raymon Anthony Doane
 - Candidate Results are:
-   - Charles Casper Stockham received <span style="color:blue">10.5%</span> of the vote with 38,855 number of votes
+   - Charles Casper Stockham received <b>10.5%</b> of the vote with <b>38,855</b> number of votes
    - Diana DeGette recieved 73.8% of the vote with 272,892 number of votes 
    - Raymon Anthony Doane received 3.1% of the vote with 11,606 number of votes
    
