@@ -39,7 +39,7 @@ If The existing python script can be modified with following changes:
 
     - Allow the election auditor to enter the state
     - Folderpath where each state election results data are stored
-    - Output file name, dynamically appends the state name at the end will allow store the election results for all states or interested in the same file path.
+    - Output file name, dynamically appends the state name at the end will allow store the election results for all states.
     
 By doing these couple of changes, the python script can be used to get the election results of any state with just entering these two arguments. 
 With some more modifications, we can make to have only one output file with all the election results appended to the same file as we run for multiple states.
